@@ -1,0 +1,51 @@
+body{
+    background-color: blue;
+}
+
+
+#container{
+    background-color: aliceblue;
+    width: 900px;
+    height: 600px;
+    margin: 50px auto auto auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    border: inset 2px gray;
+}
+
+#myInteraction{
+    padding: 10px;
+}
+
+#mapImage{
+    margin-top: 20px;
+    height: auto;
+    max-width: 100%;
+}
+
+nav button{
+    background-color: rgb(92, 177, 92);
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+}
+
+#knopNoord, #knopZuid {
+    display: block;
+    width: 300px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#knopWest, #knopOost{
+    display: inline-block;
+    width: 150px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+
+Input{
+    border-radius: 35px;
+}
