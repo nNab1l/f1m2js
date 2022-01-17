@@ -16,3 +16,36 @@ body{
 #myInteraction{
     padding: 10px;
 }
+
+#mapImage{
+    margin-top: 20px;
+    height: auto;
+    max-width: 100%;
+}
+
+nav button{
+    background-color: rgb(92, 177, 92);
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+}
+
+#knopNoord, #knopZuid {
+    display: block;
+    width: 300px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#knopWest, #knopOost{
+    display: inline-block;
+    width: 150px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+
+Input{
+    border-radius: 35px;
+}
